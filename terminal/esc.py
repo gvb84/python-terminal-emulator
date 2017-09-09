@@ -1,0 +1,35 @@
+# Taken from: VT102 User Guide
+# found http://vt100.net/docs/vt102-ug/chapter5.html
+ICH = 64     # "@" -- Insert Blank Characters
+CUU = 65     # "A" -- Cursur Up
+CUD = 66     # "B" -- Cursor Down
+CUF = 67     # "C" -- Cursor Forward
+CUB = 68     # "D" -- Cursor Backward
+CNL = 69     # "E" -- Cursor Next line
+CPL = 70     # "F" -- Cursor Previous Line
+CHA = 71     # "G" -- Cursor Horizontal Align
+CUP = 72     # "H" -- Cursor Position
+ED = 74     # "J" -- Erase data
+EL = 75     # "K" -- Erase in line
+IL = 76     # "L" -- Insert line
+DL = 77     # "M" -- Delete line
+DCH = 80     # "P" -- Delete character
+ECH = 88     # "X" -- Erase character
+HPR = 97     # "a" -- Horizontal Postion Relative
+DA = 99     # "c" -- Device Attributes
+VPA = 100     # "d" -- Vertial Position Adjust
+VPR = 101     # "e" -- Vertical Position Relative
+HVP = 102     # "f" -- Horizontal / Vertical postion
+TBC = 103     # "g" -- Tabulation Clear
+SM = 104     # "h" -- Set Mode
+RM = 108     # "l" -- Reset Mode"
+SGR = 109     # "m" -- Select Graphics rendition"
+DSR = 110     # "n" -- Device Status Report"
+DECSTBM = 114     # "r" -- Select Top and Bottom Margins
+HPA = 39     # "'" -- Horizontal Position Adjust
+RIS = 99     # "c" -- Reset to Initial State
+IND = 68     # "D" -- Index
+RI = 77     # "M" -- Reverse Index
+NEL = 69     # "E" -- Next Line
+DECSC = 55     # "7" -- Save Cursor
+DECRC = 56     # "8" -- Restore Cursor

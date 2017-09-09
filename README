@@ -1,0 +1,3 @@
+Simple attempt at terminal emulator in python and PySide (free QT library).
+It's very slow and more a proof of concept than anything as it shouldn't be
+used for anything serious.
