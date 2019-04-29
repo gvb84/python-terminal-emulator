@@ -1,4 +1,4 @@
-from PySide.QtGui import QFont, QFontMetricsF
+from PyQt5.QtGui import QFont, QFontMetricsF
 
 class MonoFont:
 	def __init__(self, name, size):

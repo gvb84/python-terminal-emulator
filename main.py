@@ -2,8 +2,9 @@
 
 import os
 import sys
-from PySide.QtCore import *
-from PySide.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import QApplication, QMainWindow, QMenu, QTabWidget
 
 import terminal
 import gui
